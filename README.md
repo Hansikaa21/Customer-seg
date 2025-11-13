@@ -5,36 +5,34 @@ This project performs customer segmentation using the Customer Personality Analy
 
 Features
 
-Loads and cleans the marketing dataset
+> Loads and cleans the marketing dataset
 
-Converts Dt_Customer to datetime and creates Customer_For feature
+> Converts Dt_Customer to datetime and creates Customer_For feature
 
-Encodes categorical variables
+> Encodes categorical variables
 
-Scales all numeric features
+> Scales all numeric features
 
-Applies PCA for visualization
+> Applies PCA for visualization
 
-Runs GMM for components 2 to 10
+> Runs GMM for components 2 to 10
 
-Compares AIC, BIC, and Silhouette Score
+> Compares AIC, BIC, and Silhouette Score
 
-Selects best number of clusters
+> Selects best number of clusters
 
-Generates cluster summary and PCA scatter plot
+> Generates cluster summary and PCA scatter plot
 
 Outputs
 
-The script generates:
+> Correlation heatmap
 
-Correlation heatmap
+> PCA 2D visualization
 
-PCA 2D visualization
+> AIC, BIC, and Silhouette Score plots
 
-AIC, BIC, and Silhouette Score plots
+> Best number of clusters
 
-Best number of clusters
+> Cluster summary table
 
-Cluster summary table
-
-Final PCA cluster scatter plot
+> Final PCA cluster scatter plot
